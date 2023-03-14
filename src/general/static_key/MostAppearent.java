@@ -26,6 +26,5 @@ public class MostAppearent {
                 System.out.print(entry.getKey()+" ");
             }
         }
-        System.out.println("test pull request");
     }
 }
