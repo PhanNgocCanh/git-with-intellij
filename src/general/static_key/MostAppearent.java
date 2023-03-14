@@ -21,11 +21,10 @@ public class MostAppearent {
             max = Math.max(max,mostAppearenceNum.get(num));
         }
         System.out.println("Các phần tử xuất hiện nhiều nhất ("+max+" lần) là: ");
-        for(Map.Entry<Integer,Integer> entry : mostAppearenceNum.entrySet()){
-            if(entry.getValue()==max) {
-                System.out.print(entry.getKey()+" ");
+        for(Map.Entry<Integer,Integer> entry : mostAppearenceNum.entrySet()) {
+            if (entry.getValue() == max) {
+                System.out.print(entry.getKey() + " ");
             }
         }
-        System.out.println("test pull request");
     }
 }
