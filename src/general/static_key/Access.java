@@ -15,5 +15,8 @@ public class Access implements Runnable{
             System.out.println(name+" index "+i+" before "+count.value);
         }
     }
+    public void SayHello(){
+        System.out.println("hello");
+    }
 
 }
