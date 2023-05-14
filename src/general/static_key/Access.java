@@ -21,5 +21,8 @@ public class Access implements Runnable{
         System.out.println("hello abckdj sdfsaaa 01");
         System.out.println("hello abckdj sdfsaaa 02");
     }
+    public void Say(){
+        System.out.println("abc");
+    }
 
 }
